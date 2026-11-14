@@ -1,1 +1,7 @@
-
+Model,Train Accuracy,CV Accuracy,Test Accuracy,Precision,Recall,F1-score,Train-Test Gap
+Logistic Regression,0.826,0.82,0.832,0.81,0.739,0.773,-0.006
+KNN (k=5),0.862,0.81,0.816,0.79,0.71,0.748,0.046
+Decision Tree (depth 1),0.785,0.78,0.771,0.689,0.739,0.713,0.014
+Decision Tree (no limit),0.983,0.799,0.793,0.742,0.71,0.726,0.19
+Decision Tree (depth 3),0.843,0.826,0.816,0.75,0.783,0.766,0.027
+Random Forest,0.983,0.801,0.816,0.773,0.739,0.756,0.167
